@@ -3,7 +3,7 @@ import User from './User';
 
 import vitorPhoto from './vitor.jpg'
 import tiagoPhoto from './tiago.jpg'
-import pirucasPhoto from './pirucas.jpg'
+import pirucasPhoto from './pirucas.png'
 
 export default function Vitor() {
 

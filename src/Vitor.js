@@ -7,6 +7,7 @@ import pirucasPhoto from './pirucas.png'
 
 export default function Vitor() {
 
+
   return (
   <div>
     <p> I am vitor component! 😁</p>

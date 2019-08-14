@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Vitor from './Vitor'
+import Vitor from './VitorComponent/Vitor'
 
 export default class App extends Component {
   constructor(props) {
@@ -24,15 +24,20 @@ export default class App extends Component {
 
   render() {
     return (
+      <div>
       <div className="App">
         <header className="App-header">
-
+          
+        {/* 
           <p>
             {this.state.name}
           </p>
           <button onClick={this.changeState}>Mudar estado</button>
           <button onClick={this.resetState}>Reset estado</button>
+          */}
         </header>
+      </div>
+      <Vitor></Vitor>
       </div>
     );
   }

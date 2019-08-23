@@ -70,8 +70,9 @@ export default class App extends Component {
 
           </header>
         </div>
-      <div className="vitor"><Vitor></Vitor></div>
-      <div className="list"><List></List></div>
+      <div className="vitor"><Vitor></Vitor>
+      </div>
+      <div ><List></List></div>
       </div>
     );
   }

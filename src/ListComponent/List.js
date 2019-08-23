@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './styles.css';
 
 
 
@@ -16,18 +16,18 @@ export default function List() {
   ]
 
   return (
-    <div className='container'>
-      <table className='tableList'>
+    <div  className='tableUser'>
+      <table className='listUser' >
         <tr>
-          <th>Name:</th>
-          <th>Email:</th>
+          <th className='listUser'>Name:</th>
+          <th className='listUser'>Email:</th>
 
         </tr>
         {list.map((item)=>{
           return(
           <tr>
-            <td>{item.name}</td>
-            <td>{item.email}</td>
+            <td className='listUser'>{item.name}</td>
+            <td className='listUser'>{item.email}</td>
           
           </tr>)
         })}

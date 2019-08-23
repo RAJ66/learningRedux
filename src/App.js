@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './App.css';
 import Vitor from './VitorComponent/Vitor'
+import List from './ListComponent/List'
 
 export default class App extends Component {
   constructor(props) {
@@ -69,7 +70,8 @@ export default class App extends Component {
 
           </header>
         </div>
-        <Vitor></Vitor>
+      <div className="vitor"><Vitor></Vitor></div>
+      <div className="list"><List></List></div>
       </div>
     );
   }

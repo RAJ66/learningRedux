@@ -10,8 +10,8 @@ export default class App extends Component {
     return (
       <div>
         <div className="App">
-          <Link to="/">Home</Link>
-          <Link to="/user">User</Link>
+          <Link className='page' to="/">Home</Link>
+          <Link className='page' to="/user">User</Link>
 
         </div>
         {routerConfig.map((value, key) => {

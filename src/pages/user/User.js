@@ -17,18 +17,18 @@ export default function User() {
   ]
 
   return (
-    <div  className='tableUser'>
+    <div  className='Home'>
       <table className='listUser' >
         <tr>
-          <th className='listUser'>Name:</th>
-          <th className='listUser'>Email:</th>
+          <th className='listLine'>Name:</th>
+          <th className='listLine'>Email:</th>
 
         </tr>
         {list.map((item)=>{
           return(
           <tr>
-            <td className='listUser'>{item.name}</td>
-            <td className='listUser'>{item.email}</td>
+            <td className='listLine'>{item.name}</td>
+            <td className='listLine'>{item.email}</td>
           
           </tr>)
         })}

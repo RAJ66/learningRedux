@@ -1,0 +1,12 @@
+.listUser{
+  border: 5px azure solid;
+  width: 50%;
+  height: 70%;
+}
+
+.listLine{
+  border: 2px azure solid;
+  color: antiquewhite;
+  text-align: center;
+}
+

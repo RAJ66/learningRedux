@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './styles.css'
 
 
 
@@ -7,8 +7,8 @@ export default function Home() {
 
 
   return (
-    <div >
-     <h1>Pagina Inicial 😁</h1> 
+    <div className='Home'>
+     <h1 className='Title'>Pagina Inicial 😁</h1> 
     </div>
 
   )

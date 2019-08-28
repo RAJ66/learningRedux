@@ -38,6 +38,10 @@ table.customTable thead {
   background-color: #7ea8f8;
 }
 
+img{
+  display: flex;
+  align-content: center;
+}
 
 
 

@@ -1,6 +1,9 @@
 import React from 'react';
 import './styles.css'
 import UserForm from './UserForm';
+import photoVitor from '../../photos/vitor.jpg'
+import photoTiago from '../../photos/tiago.jpg'
+
 
 
 
@@ -9,7 +12,8 @@ export default function User() {
   let list = [
     {
       name: 'Vitor',
-      email: 'vitor@gmail.com'
+      email: 'vitor@gmail.com',
+      img: photoVitor
     },
     {
       name: 'tiago',
@@ -26,15 +30,20 @@ export default function User() {
       <br/>
       <table className='customTable' >
         <tr>
-          <th className='listLine'>Name:</th>
-          <th className='listLine'>Email:</th>
+          <th >Name:</th>
+          <th >Email:</th>
+          <th >Photo:</th>
+
 
         </tr>
         {list.map((item) => {
           return (
             <tr>
-              <td className='listLine'>{item.name}</td>
-              <td className='listLine'>{item.email}</td>
+              <td >{item.name}</td>
+              <td >{item.email}</td>
+              <td >
+                <img src={photoVitor} alt=""  height="80" width="100"/>
+                </td>
 
             </tr>)
         })}

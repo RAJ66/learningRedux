@@ -17,7 +17,8 @@ export default function User() {
     },
     {
       name: 'tiago',
-      email: 'tiago@gmail.com'
+      email: 'tiago@gmail.com',
+      img: photoTiago
     },
   ]
 
@@ -42,7 +43,7 @@ export default function User() {
               <td >{item.name}</td>
               <td >{item.email}</td>
               <td >
-                <img src={photoVitor} alt=""  height="80" width="100"/>
+                <img src={item.img} alt=""  height="80" width="100"/>
                 </td>
 
             </tr>)

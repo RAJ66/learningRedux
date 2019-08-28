@@ -19,11 +19,12 @@ export default function User() {
 
   return (
     <div className='Home'>
-      <div className='UserForm'>
+      <div className='customForm'>
       <UserForm></UserForm>
 
       </div>
-      <table className='listUser' >
+      <br/>
+      <table className='customTable' >
         <tr>
           <th className='listLine'>Name:</th>
           <th className='listLine'>Email:</th>

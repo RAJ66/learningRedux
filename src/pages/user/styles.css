@@ -1,13 +1,4 @@
-.listUser{
-  border: 5px azure solid;
-  width: 50%;
-  height: 70%;
-}
 
-.listLine{
-  border: 2px azure solid;
-  text-align: center;
-}
 
 .Home{
   color: antiquewhite;
@@ -15,9 +6,38 @@
   flex-direction: column;
 }
 
-.UserForm{
-  margin:15px 0px;
-  padding:15px;
-  border: 2px azure solid;
+.customForm {
+  width: 90%;
+  background-color: black;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #DF7401;
+  border-style: solid;
+  padding: 15px 0px;
+  text-align: center;
 }
+
+
+.customTable {
+  width: 90%;
+  background-color: black;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #DF7401;
+  border-style: solid;
+}
+
+table.customTable td, table.customTable th {
+  border-width: 2px;
+  border-color: #DF7401;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.customTable thead {
+  background-color: #7ea8f8;
+}
+
+
+
 

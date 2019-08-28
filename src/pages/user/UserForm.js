@@ -4,7 +4,7 @@ import {connect} from 'react-redux'
 
 const UserFormFunc = props =>{
   return(
-    <form action="">
+    <form action="" >
       <label htmlFor="">
         Name:
       </label><br/>

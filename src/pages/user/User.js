@@ -42,8 +42,8 @@ export default function User() {
             <tr>
               <td >{item.name}</td>
               <td >{item.email}</td>
-              <td >
-                <img src={item.img} alt=""  height="80" width="100"/>
+              <td className='ppp'>
+                <img src={item.img}  height="80" width="100"/>
                 </td>
 
             </tr>)

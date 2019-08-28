@@ -34,14 +34,10 @@ table.customTable td, table.customTable th {
   padding: 5px;
 }
 
-table.customTable thead {
-  background-color: #7ea8f8;
-}
-
-img{
-  display: flex;
+.ppp{
   align-content: center;
 }
+
 
 
 

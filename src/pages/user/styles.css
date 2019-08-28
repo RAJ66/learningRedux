@@ -10,3 +10,13 @@
   text-align: center;
 }
 
+.Home{
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.UserForm{
+  
+}
+

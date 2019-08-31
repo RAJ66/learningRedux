@@ -10,7 +10,7 @@ export default class App extends Component {
     return (
       <div className='Total'>
 
-        <div className="App">
+        <div className="HeaderApp">
           <Link className='page' to="/">Home</Link>
           <Link className='page' to="/user">User</Link>
         </div>

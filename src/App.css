@@ -1,13 +1,13 @@
 .Total{
   height: 100vh;
-  background-color: green;
-  ;
+  
 }
 
-.App {
+.HeaderApp {
   text-align: center;
   background-color: #DF7401;
   height: 10%;
+  
   
   
 }
@@ -20,6 +20,7 @@
   margin-left: 15px;
   color: azure;
   text-decoration:none;
+  padding-top: 20px;
 }
 
 

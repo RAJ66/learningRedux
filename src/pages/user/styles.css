@@ -58,6 +58,11 @@ table.customTable td, table.customTable th {
   opacity: 0.6;
 }
 
+.inputForm{
+  border: 2px solid #DF7401;
+  border-radius: 4px;
+}
+
 
 
 

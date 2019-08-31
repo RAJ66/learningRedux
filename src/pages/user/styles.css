@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-.customForm {
+ .customForm {
   width: 90%;
   background-color: black;
   border-collapse: collapse;
@@ -36,6 +36,26 @@ table.customTable td, table.customTable th {
 
 .ppp{
   align-content: center;
+}
+
+.buttonForm{
+  background-color: #DF7401;
+  border: none;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttonForm:hover{
+  opacity: 0.6;
 }
 
 

@@ -4,6 +4,7 @@
   color: antiquewhite;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
  .customForm {
@@ -34,9 +35,7 @@ table.customTable td, table.customTable th {
   padding: 5px;
 }
 
-.ppp{
-  align-content: center;
-}
+
 
 .buttonForm{
   background-color: #DF7401;

@@ -1,10 +1,19 @@
+.Total{
+  height: 100vh;
+  background-color: green;
+  ;
+}
+
 .App {
   text-align: center;
   background-color: #DF7401;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  height: 10%;
   
   
+}
+
+.Main{
+  height: 90%;
 }
 
 .page{

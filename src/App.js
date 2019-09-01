@@ -9,11 +9,12 @@ export default class App extends Component {
   render() {
     return (
       <div className='Total'>
+        
+          <div className="HeaderApp">
+            <Link className='page' to="/">Home</Link>
+            <Link className='page' to="/user">User</Link>
+          </div>
 
-        <div className="HeaderApp">
-          <Link className='page' to="/">Home</Link>
-          <Link className='page' to="/user">User</Link>
-        </div>
         <div className='Main'>
           {routerConfig.map((value, key) => {
             return <Route

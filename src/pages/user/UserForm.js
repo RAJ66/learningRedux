@@ -15,7 +15,7 @@ const UserFormFunc = props => {
       <label htmlFor="">
         Name:
       </label><br />
-      <Field type="text" component='input' name='name' className='inputForm' />
+      <Field type="text" component='input' name='nome' className='inputForm' />
       <br />
       <label htmlFor="">
         Email:

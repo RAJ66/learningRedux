@@ -4,13 +4,21 @@ import routerConfig from './RoutesConfig'
 import './App.css';
 
 
+
 export default class App extends Component {
+   
+  
+  lightMode() {
+    console.log('light mode : on');
+    document.getElementById("header").style.backgroundColor = "green";
+  }
+
 
   render() {
     return (
-      <div className='Total'>
+      <div className='Total' >
         
-          <div className="HeaderApp">
+          <div className="HeaderApp" id='header'>
             <Link className='page' to="/">Home</Link>
             <Link className='page' to="/user">User</Link>
           </div>
@@ -24,6 +32,11 @@ export default class App extends Component {
               exact={value.exact}
             ></Route>
           })}
+        </div>
+        <div className='ModeColor'>
+          <button onClick={this.lightMode}>Light Mode</button>
+          <button onClick={this.lightMode}>Dark Mode</button>
+
         </div>
       </div>
     );

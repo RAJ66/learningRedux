@@ -5,7 +5,7 @@
 
 .HeaderApp {
   height: 10%;
-  background-color: #6200ee;
+  background-color: #6441a4;
   
   display: flex;
   flex-direction: row;
@@ -27,14 +27,14 @@
 }
 
 .buttonMode{
-  background: #6200ee;
+  background: #6441a4;
   color: white;
-  border: #6200ee
+  border: #6441a4
 }
 
 .footerApp{
   height: 5%;
-  background-color: #6200ee;
+  background-color: #6441a4;
   
   display: flex;
   flex-direction: row;

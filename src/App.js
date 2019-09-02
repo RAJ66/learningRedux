@@ -2,27 +2,17 @@ import React, { Component } from 'react';
 import { Link, Route } from 'react-router-dom';
 import routerConfig from './RoutesConfig'
 import './App.css';
+import {lightMode,darkMode} from './Mode';
 
 
 
 export default class App extends Component {
   
   componentDidMount(){
-    this.lightMode();
+    lightMode();
   }
 
-  lightMode() {
-    console.log('light mode : on');
-    document.getElementById("mainTest").style.backgroundColor = "rgb(242,231,254)";
-    document.getElementById("home").style.color = "black";
-
-  }
-
-  darkMode(){
-    console.log('dark mode : on');
-    document.getElementById("mainTest").style.backgroundColor = "black";
-    document.getElementById("home").style.color = "white";
-  }
+  
 
   render() {
     
@@ -45,8 +35,8 @@ export default class App extends Component {
           })}
         </div>
         <div className='footerApp'>
-          <button   className='buttonMode'onClick={this.lightMode}>Light Mode</button>
-          <button className='buttonMode' onClick={this.darkMode}>Dark Mode</button>
+          <button   className='buttonMode'onClick={lightMode}>Light Mode</button>
+          <button className='buttonMode' onClick={darkMode}>Dark Mode</button>
 
         </div>
       </div>

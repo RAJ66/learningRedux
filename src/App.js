@@ -10,14 +10,21 @@ export default class App extends Component {
   
   lightMode() {
     console.log('light mode : on');
-    document.getElementById("header").style.backgroundColor = "#6200ee";
     document.getElementById("mainTest").style.backgroundColor = "rgb(242,231,254)";
     document.getElementById("home").style.color = "black";
 
+    
 
   }
 
+  darkMode(){
+    console.log('dark mode : on');
+    document.getElementById("mainTest").style.backgroundColor = "black";
+    document.getElementById("home").style.color = "white";
+  }
+
   render() {
+    
     return (
       <div className='Total' >
         
@@ -38,7 +45,7 @@ export default class App extends Component {
         </div>
         <div className='ModeColor'>
           <button onClick={this.lightMode}>Light Mode</button>
-          <button onClick={this.lightMode}>Dark Mode</button>
+          <button onClick={this.darkMode}>Dark Mode</button>
 
         </div>
       </div>

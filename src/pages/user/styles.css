@@ -1,7 +1,7 @@
 
 
 .Home{
-  color: antiquewhite;
+  
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -9,10 +9,10 @@
 
  .customForm {
   width: 90%;
-  background-color: black;
+  
   border-collapse: collapse;
   border-width: 2px;
-  border-color: #DF7401;
+  border-color: #6200ee;
   border-style: solid;
   padding: 15px 0px;
   text-align: center;
@@ -21,16 +21,15 @@
 
 .customTable {
   width: 90%;
-  background-color: black;
   border-collapse: collapse;
   border-width: 2px;
-  border-color: #DF7401;
+  border-color: #6200ee;
   border-style: solid;
 }
 
 table.customTable td, table.customTable th {
   border-width: 2px;
-  border-color: #DF7401;
+  border-color: #6200ee;
   border-style: solid;
   padding: 5px;
 }
@@ -38,9 +37,9 @@ table.customTable td, table.customTable th {
 
 
 .buttonForm{
-  background-color: #DF7401;
+  background-color: #6200ee;
   border: none;
-  color: black;
+  color: white;
   padding: 5px 20px;
   text-align: center;
   font-size: 16px;
@@ -58,7 +57,7 @@ table.customTable td, table.customTable th {
 }
 
 .inputForm{
-  border: 2px solid #DF7401;
+  border: 2px solid #6200ee;
   border-radius: 4px;
 }
 

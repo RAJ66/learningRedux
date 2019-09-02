@@ -23,14 +23,14 @@ export default function User() {
   ]
 
   return (
-    <div className='Home'>
-      <div className='customForm'>
+    <div className='Home' id='home'>
+      <div className='customForm' >
       <UserForm></UserForm>
 
       </div>
       <br/>
       <table className='customTable' >
-        <tr>
+        <tr >
           <th >Name:</th>
           <th >Email:</th>
           <th >Photo:</th>

@@ -6,14 +6,15 @@ import './App.css';
 
 
 export default class App extends Component {
-   
+  
+  componentDidMount(){
+    this.lightMode();
+  }
   
   lightMode() {
     console.log('light mode : on');
     document.getElementById("mainTest").style.backgroundColor = "rgb(242,231,254)";
     document.getElementById("home").style.color = "black";
-
-    
 
   }
 

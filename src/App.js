@@ -44,9 +44,9 @@ export default class App extends Component {
             ></Route>
           })}
         </div>
-        <div className='HeaderApp'>
-          <button   className='teste'onClick={this.lightMode}>Light Mode</button>
-          <button className='teste' onClick={this.darkMode}>Dark Mode</button>
+        <div className='footerApp'>
+          <button   className='buttonMode'onClick={this.lightMode}>Light Mode</button>
+          <button className='buttonMode' onClick={this.darkMode}>Dark Mode</button>
 
         </div>
       </div>

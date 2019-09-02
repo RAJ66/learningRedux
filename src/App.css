@@ -16,7 +16,7 @@
 }
 
 .Main{
-  height: 80%;
+  height: 85%;
 }
 
 .page{
@@ -26,10 +26,21 @@
   
 }
 
-.teste{
-background-color: #6200ee;
-border-color: #6200ee;
-color:white;
+.buttonMode{
+  background: #6200ee;
+  color: white;
+  border: #6200ee
+}
+
+.footerApp{
+  height: 5%;
+  background-color: #6200ee;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
 }
 
 

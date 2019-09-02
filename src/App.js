@@ -10,9 +10,12 @@ export default class App extends Component {
   
   lightMode() {
     console.log('light mode : on');
-    document.getElementById("header").style.backgroundColor = "green";
-  }
+    document.getElementById("header").style.backgroundColor = "#6200ee";
+    document.getElementById("mainTest").style.backgroundColor = "rgb(242,231,254)";
+    document.getElementById("home").style.color = "black";
 
+
+  }
 
   render() {
     return (
@@ -23,7 +26,7 @@ export default class App extends Component {
             <Link className='page' to="/user">User</Link>
           </div>
 
-        <div className='Main'>
+        <div className='Main' id='mainTest'>
           {routerConfig.map((value, key) => {
             return <Route
               key={key}

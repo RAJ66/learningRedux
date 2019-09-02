@@ -10,7 +10,7 @@ export default class App extends Component {
   componentDidMount(){
     this.lightMode();
   }
-  
+
   lightMode() {
     console.log('light mode : on');
     document.getElementById("mainTest").style.backgroundColor = "rgb(242,231,254)";
@@ -44,9 +44,9 @@ export default class App extends Component {
             ></Route>
           })}
         </div>
-        <div className='ModeColor'>
-          <button onClick={this.lightMode}>Light Mode</button>
-          <button onClick={this.darkMode}>Dark Mode</button>
+        <div className='HeaderApp'>
+          <button   className='teste'onClick={this.lightMode}>Light Mode</button>
+          <button className='teste' onClick={this.darkMode}>Dark Mode</button>
 
         </div>
       </div>

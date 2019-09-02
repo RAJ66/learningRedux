@@ -16,7 +16,7 @@
 }
 
 .Main{
-  height: 90%;
+  height: 80%;
 }
 
 .page{
@@ -24,6 +24,12 @@
   color: azure;
   text-decoration:none;
   
+}
+
+.teste{
+background-color: #6200ee;
+border-color: #6200ee;
+color:white;
 }
 
 

@@ -59,6 +59,7 @@ table.customTable td, table.customTable th {
 .inputForm{
   border: 2px solid #6441a4;
   border-radius: 4px;
+  margin-left: 10px;
 }
 
 

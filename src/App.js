@@ -17,14 +17,15 @@ export default class App extends Component {
   render() {
     
     return (
-      <div className='Total' >
-        
-          <div className="HeaderApp" id='header'>
+      <div className='container' >
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+
+          <div className="header" id='header'>
             <Link className='page' to="/">Home</Link>
             <Link className='page' to="/user">User</Link>
           </div>
 
-        <div className='Main' id='mainTest'>
+        <div className='main' id='mainTest'>
           {routerConfig.map((value, key) => {
             return <Route
               key={key}
@@ -34,7 +35,7 @@ export default class App extends Component {
             ></Route>
           })}
         </div>
-        <div className='footerApp'>
+        <div className='footer'>
           <button   className='buttonMode'onClick={lightMode}>Light Mode</button>
           <button className='buttonMode' onClick={darkMode}>Dark Mode</button>
 

@@ -4,7 +4,7 @@ import routerConfig from './RoutesConfig'
 import './App.css';
 import {lightMode,darkMode} from './Mode';
 
-
+import './styles/color.css';
 
 export default class App extends Component {
   

@@ -12,7 +12,7 @@
   
   border-collapse: collapse;
   border-width: 2px;
-  border-color: #6441a4;
+  border-color: var(--color-zero);
   border-style: solid;
   padding: 15px 0px;
   text-align: center;
@@ -23,13 +23,13 @@
   width: 90%;
   border-collapse: collapse;
   border-width: 2px;
-  border-color: #6441a4;
+  border-color: var(--color-zero);
   border-style: solid;
 }
 
 table.customTable td, table.customTable th {
   border-width: 2px;
-  border-color: #6441a4;
+  border-color: var(--color-zero);
   border-style: solid;
   padding: 5px;
 }
@@ -37,9 +37,9 @@ table.customTable td, table.customTable th {
 
 
 .buttonForm{
-  background-color: #6441a4;
+  background-color: var(--color-zero);
   border: none;
-  color: white;
+  color: var(--color-base);
   padding: 5px 20px;
   text-align: center;
   font-size: 16px;
@@ -57,7 +57,7 @@ table.customTable td, table.customTable th {
 }
 
 .inputForm{
-  border: 2px solid #6441a4;
+  border: 2px solid var(--color-zero);
   border-radius: 4px;
   margin-left: 10px;
 }

@@ -2,7 +2,7 @@ html,body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: black;
+  background: var(--color-first);
   font-family: 'Roboto', sans-serif;
   }
 
@@ -17,7 +17,7 @@ html,body {
 
 .header {
   height: 100%;
-  background-color: #6441a4;
+  background-color: var(--color-zero);
   
   grid-area: header;
 
@@ -34,20 +34,20 @@ html,body {
 
 .page{
   margin-left: 15px;
-  color: azure;
+  color: var(--color-base);
   text-decoration:none;
 }
 
 .buttonMode{
-  background: #6441a4;
-  color: white;
-  border: #6441a4
+  background: var(--color-zero);
+  color: var(--color-base);
+  border: var(--color-zero)
 }
 
 .footer{
   height: 100%;
   grid-area: footer;
-  background-color: #6441a4;
+  background-color: var(--color-zero);
   
   display: flex;
   align-content: center;

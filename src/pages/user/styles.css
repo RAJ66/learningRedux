@@ -62,6 +62,19 @@ table.customTable td, table.customTable th {
   margin-left: 10px;
 }
 
+.tdImg{
+  display: flex;
+  justify-content: center;
+  
+}
+
+img{
+  max-height: 100px;
+  max-width: 100px;
+  width: auto;
+  height: auto;
+}
+
 
 
 

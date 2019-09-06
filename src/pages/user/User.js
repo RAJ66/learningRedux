@@ -25,10 +25,10 @@ export default function User() {
   return (
     <div className='Home' id='home'>
       <div className='customForm' >
-      <UserForm></UserForm>
+        <UserForm></UserForm>
 
       </div>
-      <br/>
+      <br />
       <table className='customTable' >
         <tr >
           <th >Name:</th>
@@ -42,9 +42,9 @@ export default function User() {
             <tr>
               <td >{item.name}</td>
               <td >{item.email}</td>
-              <td >
-                <img src={item.img}  height="80" width="100"/>
-                </td>
+              <td className='tdImg'>
+                <img src={item.img} />
+              </td>
 
             </tr>)
         })}
